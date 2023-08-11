@@ -15,8 +15,46 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@hosteliq-mono-repo/api/controller/admin-user-controller": [
+        "libs/api/controller/admin-user-controller/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/admin-user-controller/server": [
+        "libs/api/controller/admin-user-controller/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/auth-controller": [
+        "libs/api/controller/auth-controller/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/auth-controller/server": [
+        "libs/api/controller/auth-controller/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/countries-controller": [
+        "libs/api/controller/countries-controller/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/countries-controller/server": [
+        "libs/api/controller/countries-controller/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/static-content-controller": [
+        "libs/api/controller/static-content-controller/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/controller/static-content-controller/server": [
+        "libs/api/controller/static-content-controller/src/server.ts"
+      ],
       "@hosteliq-mono-repo/api/helper": ["libs/api/helper/src/index.ts"],
-      "@hosteliq-mono-repo/api/helper/server": ["libs/api/helper/src/server.ts"]
+      "@hosteliq-mono-repo/api/helper/server": [
+        "libs/api/helper/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/model/admin-user-model": [
+        "libs/api/model/admin-user-model/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/model/admin-user-model/server": [
+        "libs/api/model/admin-user-model/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/model/static-content-model": [
+        "libs/api/model/static-content-model/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/model/static-content-model/server": [
+        "libs/api/model/static-content-model/src/server.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

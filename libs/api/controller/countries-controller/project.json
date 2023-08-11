@@ -1,0 +1,18 @@
+{
+  "name": "api-controller-countries-controller",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/api/controller/countries-controller/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/api/controller/countries-controller/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    }
+  }
+}

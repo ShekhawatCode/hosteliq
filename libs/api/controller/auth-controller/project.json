@@ -1,0 +1,18 @@
+{
+  "name": "api-controller-auth-controller",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/api/controller/auth-controller/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/api/controller/auth-controller/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    }
+  }
+}
