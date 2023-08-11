@@ -43,11 +43,29 @@
       "@hosteliq-mono-repo/api/helper/server": [
         "libs/api/helper/src/server.ts"
       ],
+      "@hosteliq-mono-repo/api/messages/api-messages": [
+        "libs/api/messages/api-messages/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/messages/api-messages/server": [
+        "libs/api/messages/api-messages/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/messages/app-messages": [
+        "libs/api/messages/app-messages/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/messages/app-messages/server": [
+        "libs/api/messages/app-messages/src/server.ts"
+      ],
       "@hosteliq-mono-repo/api/model/admin-user-model": [
         "libs/api/model/admin-user-model/src/index.ts"
       ],
       "@hosteliq-mono-repo/api/model/admin-user-model/server": [
         "libs/api/model/admin-user-model/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/model/country-model": [
+        "libs/api/model/country-model/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/model/country-model/server": [
+        "libs/api/model/country-model/src/server.ts"
       ],
       "@hosteliq-mono-repo/api/model/static-content-model": [
         "libs/api/model/static-content-model/src/index.ts"

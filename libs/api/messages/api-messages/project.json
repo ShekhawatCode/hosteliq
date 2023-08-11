@@ -1,0 +1,18 @@
+{
+  "name": "api-messages-api-messages",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/api/messages/api-messages/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/api/messages/api-messages/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    }
+  }
+}
