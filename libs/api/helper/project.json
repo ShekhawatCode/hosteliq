@@ -1,0 +1,16 @@
+{
+  "name": "api-helper",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/api/helper/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/helper/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
