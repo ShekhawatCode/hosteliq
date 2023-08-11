@@ -43,6 +43,18 @@
       "@hosteliq-mono-repo/api/helper/server": [
         "libs/api/helper/src/server.ts"
       ],
+      "@hosteliq-mono-repo/api/interfaces/api-interfaces": [
+        "libs/api/interfaces/api-interfaces/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/interfaces/api-interfaces/server": [
+        "libs/api/interfaces/api-interfaces/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/api/interfaces/app-interfaces": [
+        "libs/api/interfaces/app-interfaces/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/api/interfaces/app-interfaces/server": [
+        "libs/api/interfaces/app-interfaces/src/server.ts"
+      ],
       "@hosteliq-mono-repo/api/messages/api-messages": [
         "libs/api/messages/api-messages/src/index.ts"
       ],
@@ -72,6 +84,18 @@
       ],
       "@hosteliq-mono-repo/api/model/static-content-model/server": [
         "libs/api/model/static-content-model/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/app/interfaces/api-interfaces": [
+        "libs/app/interfaces/api-interfaces/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/app/interfaces/api-interfaces/server": [
+        "libs/app/interfaces/api-interfaces/src/server.ts"
+      ],
+      "@hosteliq-mono-repo/app/interfaces/app-interfaces": [
+        "libs/app/interfaces/app-interfaces/src/index.ts"
+      ],
+      "@hosteliq-mono-repo/app/interfaces/app-interfaces/server": [
+        "libs/app/interfaces/app-interfaces/src/server.ts"
       ]
     }
   },

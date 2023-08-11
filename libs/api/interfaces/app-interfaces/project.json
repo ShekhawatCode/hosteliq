@@ -1,0 +1,18 @@
+{
+  "name": "api-interfaces-app-interfaces",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/api/interfaces/app-interfaces/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/api/interfaces/app-interfaces/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    }
+  }
+}
